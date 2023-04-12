@@ -6,7 +6,7 @@ from playsound import playsound
 
 
 BASE_URL = "https://api.elevenlabs.io/v1/text-to-speech"
-VOICE_ID = "ErXwobaYiN019PkySvjV"
+VOICE_ID = "DTGOyDqE5dv1sHZkrvYg"
 API_URL = f"{BASE_URL}/{VOICE_ID}"
 API_KEY = os.getenv("ELEVENLABS_API_KEY")
 

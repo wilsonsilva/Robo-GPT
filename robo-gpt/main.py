@@ -94,7 +94,7 @@ def main():
         action, metadata = response_parser.parse(assistant_response)
         print(f"ACTION: {action.short_string()}")
         # Uncomment the line below if you would like to use speech.
-        # speech.say_async(metadata.speak)
+        speech.say_async(metadata.speak)
         if isinstance(action, actions.ShutdownAction):
             print("Shutting down...")
             break
